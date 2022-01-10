@@ -1,0 +1,14 @@
+:root {
+  --myFontFamily: Arial, Helvetica, sans-serif;
+  --myBgColor: rgb(245, 245, 245);
+}
+
+body {
+  background-color: var(--myBgColor);
+  font-family: var(--myFontFamily);
+}
+
+body {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
