@@ -1,14 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
 :root {
-  --myFontFamily: Arial, Helvetica, sans-serif;
+  --myFontFamily: "Open Sans", Arial, sans-serif;
   --myBgColor: rgb(245, 245, 245);
 }
 
 body {
   background-color: var(--myBgColor);
-  font-family: var(--myFontFamily);
+  margin: 0px;
 }
 
-body {
-  display: grid;
-  grid-template-columns: 20% 80%;
+#navbar {
+  background-color: var(--myBgColor);
+  color: white;
+  height: 100%;
+  width: 310px;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  border-right: solid 3px rgb(172, 172, 172);
+}
+
+#main-doc {
+  margin-left: 340px;
+  margin-top: 50px;
+}
+
+#h1-navbar {
+  text-align: center;
+  color: black;
+  font-family: var(--myFontFamily);
+  font-weight: normal;
+  font-size: 30px;
+}
+
+#nav-ul {
+  padding: 0;
+}
+
+#nav-ul li {
+  width: 100%;
+  border-top: solid 1px black;
+  position: relative;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  font-size: 19px;
+  font-family: var(--my-font-family);
+  margin-left: 25px;
+  display: block;
+}
+
+.h1-for-content {
+  font-family: var(--my-font-family);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.section-content p {
+  margin-left: 15px;
+  margin-right: 50px;
+  font-size: 17px;
+}
+
+.section-content li {
+  margin-left: 30px;
+  margin-right: 50px;
+  margin-bottom: 15px;
+}
+
+.main-section {
+  margin-bottom: 15px;
+}
+
+.section-content code {
+  display: block;
+  text-align: left;
+  background-color: #d3d3d3;
+  margin-left: 25px;
+  margin-right: 100px;
+  line-height: 1.9em;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
