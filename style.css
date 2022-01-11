@@ -10,22 +10,44 @@ body {
   margin: 0px;
 }
 
-#navbar {
-  background-color: var(--myBgColor);
-  color: white;
-  height: 100%;
-  width: 310px;
-  padding: 0;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 2;
-  border-right: solid 3px rgb(172, 172, 172);
+@media (max-width: 815px) {
+  #navbar {
+    background-color: var(--myBgColor);
+    position: absolute;
+    overflow: scroll;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 300px;
+    z-index: 1;
+    border-bottom: 3px solid rgb(172, 172, 172);
+  }
+
+  #main-doc {
+    margin-left: 50px;
+    margin-top: 310px;
+  }
 }
 
-#main-doc {
-  margin-left: 340px;
-  margin-top: 50px;
+@media (min-width: 816px) {
+  #navbar {
+    background-color: var(--myBgColor);
+    color: white;
+    height: 100%;
+    width: 310px;
+    padding: 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    border-right: solid 3px rgb(172, 172, 172);
+  }
+
+  #main-doc {
+    margin-left: 340px;
+    margin-top: 50px;
+  }
 }
 
 #h1-navbar {
