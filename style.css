@@ -25,7 +25,8 @@ body {
   }
 
   #main-doc {
-    margin-left: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
     margin-top: 310px;
   }
 
@@ -33,12 +34,18 @@ body {
     display: block;
     text-align: left;
     background-color: #d3d3d3;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 15px;
+    margin-right: 5px;
     line-height: 1.9em;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .section-content p {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 17px;
   }
 }
 
@@ -71,6 +78,12 @@ body {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+  }
+
+  .section-content p {
+    margin-left: 15px;
+    margin-right: 50px;
+    font-size: 17px;
   }
 }
 
@@ -108,12 +121,6 @@ body {
   font-family: var(--my-font-family);
   font-size: 30px;
   font-weight: 500;
-}
-
-.section-content p {
-  margin-left: 15px;
-  margin-right: 50px;
-  font-size: 17px;
 }
 
 .section-content li {
