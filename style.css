@@ -28,6 +28,18 @@ body {
     margin-left: 50px;
     margin-top: 310px;
   }
+
+  .section-content code {
+    display: block;
+    text-align: left;
+    background-color: #d3d3d3;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 1.9em;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
 
 @media (min-width: 816px) {
@@ -47,6 +59,18 @@ body {
   #main-doc {
     margin-left: 340px;
     margin-top: 50px;
+  }
+
+  .section-content code {
+    display: block;
+    text-align: left;
+    background-color: #d3d3d3;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 1.9em;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -94,7 +118,6 @@ body {
 
 .section-content li {
   margin-left: 30px;
-  margin-right: 50px;
   margin-bottom: 15px;
 }
 
@@ -102,14 +125,7 @@ body {
   margin-bottom: 15px;
 }
 
-.section-content code {
-  display: block;
-  text-align: left;
-  background-color: #d3d3d3;
-  margin-left: 25px;
-  margin-right: 100px;
-  line-height: 1.9em;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+.nested-list {
+  padding-left: 10px;
+  margin-top: 15px;
 }
